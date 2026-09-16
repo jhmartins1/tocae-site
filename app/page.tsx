@@ -127,7 +127,7 @@ export default function HomePage() {
         </section>
       </main>
 
-      <footer><div className="container"><div className="footerTop"><a className="brand" href="#inicio"><Image src="/logo-tocae.png" alt="Logo Tocaê" width={48} height={48} /><span className="brandWords">Tocaê<span>ESCOLA DE MÚSICA</span></span></a><p>Música para aprender.<br /><span>Liberdade para ser você.</span></p><a className="footerSocial" href={instagram} target="_blank" rel="noopener noreferrer">Encontre a gente <Instagram size={20} /><ArrowUpRight size={17} /></a></div><div className="footerBottom"><span>© 2026 Tocaê. Todos os direitos reservados.</span><span>Feito com ritmo, afeto e música. <Music2 size={13} /></span></div></div></footer>
+      <footer><div className="container"><div className="footerTop"><a className="brand" href="#inicio"><Image src="/logo-tocae.png" alt="Logo Tocaê" width={48} height={48} /><span className="brandWords">Tocaê<span>ESCOLA DE MÚSICA</span></span></a><p>Música para aprender.<br /><span>Liberdade para ser você.</span></p><a className="footerSocial" href={instagram} target="_blank" rel="noopener noreferrer">Encontre a gente <Instagram size={20} /><ArrowUpRight size={17} /></a></div><div className="footerBottom"><span>© 2026 Tocaê. Todos os direitos reservados.</span><a href="/privacidade">Política de Privacidade</a><span>Feito com ritmo, afeto e música. <Music2 size={13} /></span></div></div></footer>
     </>
   );
 }
