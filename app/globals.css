@@ -1016,6 +1016,18 @@ footer {
   gap: 8px;
 }
 
+.footerBottom > a {
+  color: var(--cream);
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding-block: 8px;
+}
+
+.footerBottom > a:hover {
+  color: var(--orange);
+}
+
 @keyframes appear {
   from {
     opacity: 0;

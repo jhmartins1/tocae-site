@@ -44,6 +44,7 @@ export default function HomePage() {
             <a href="#sobre" onClick={() => setMenuOpen(false)}>A Tocaê</a>
             <a href="#instrumentos" onClick={() => setMenuOpen(false)}>Instrumentos</a>
             <a href="#como-funciona" onClick={() => setMenuOpen(false)}>Como funciona</a>
+            <a href="/privacidade" onClick={() => setMenuOpen(false)}>Privacidade</a>
           </nav>
           <a className="headerCta" href="#contato">Vamos conversar <ArrowUpRight size={17} /></a>
           <button className="menuToggle" type="button" aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
